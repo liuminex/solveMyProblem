@@ -1,0 +1,22 @@
+{
+  "name": "credits_ms",
+  "version": "1.0.0",
+  "main": "service.js",
+  "scripts": {
+    "start": "node service.js",
+    "dev": "nodemon service.js"
+  },
+  "author": "Konstantinos Perifanos",
+  "license": "ISC",
+  "description": "Credits Microservice to store global Credits and charge",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "kafkajs": "^2.2.4",
+    "pg": "^8.11.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
